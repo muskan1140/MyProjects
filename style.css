@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Chakra Petch&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.heading{
+    background-color: #3b6df7c5;
+    color: white;
+    width: 100%;
+    height: 20vh;
+    font-size: 25px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading > #title{
+    font-size: 2.2em;
+    color:white;
+    font-family:'Chakra Petch', sans-serif;
+    position:sticky;
+    top:1;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+
+.sec{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* align-content: space-between; */
+    flex-wrap: wrap;
+    min-height: 12vh;
+    margin: 1em 0;
+    /* transition: all ease-in .1s; */
+    padding: 1em 1em;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); */
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px grey;
+    width: 350px;
+    margin: 10px 10px;
+}
+
+.sec:hover{
+    background-color: #e4e0e4bb;
+}
+
+.sec > .serialno{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family:'Chakra Petch';
+    margin: 0 1rem;
+    color: #3f37cd;
+}
+
+.sec > .description{
+    margin-right: auto;
+    max-width: 60%;
+}
+
+.sec >.description > .project-title{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1e021f;
+    
+}
+
+.sec >.description >.project-desc{
+    color:#2124bc;
+    line-height: 1.2;
+    font-size: 1.1em;
+
+}
+
+/* .sec:hover{
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.5);
+    background-color: rgba(197, 190, 190, 0.153);
+} */
+
+.sec > .link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+}
+
+a{
+    color: rgb(63, 102, 229);
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color:#5f545f;
+}
